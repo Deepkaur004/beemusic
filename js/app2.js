@@ -43,7 +43,8 @@ const setMusic = (i)=>{
 
     currentMusic = i;
 
-    audio.src = song.path;
+    // audio.src = song.path;
+    audio.setAttribute("src", song.path);
     audioName.innerHTML = song.name;
     Artist.innerHTML = song.artist;
     disk.style.backgroundImage = `url(${song.cover})`;
