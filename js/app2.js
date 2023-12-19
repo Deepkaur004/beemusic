@@ -54,7 +54,7 @@ const setMusic = (i)=>{
     setTimeout(()=>{
         slideBar.max = audio.duration;
         songDurationTime.innerHTML = formatTime(audio.duration);
-    }, 300)
+    }, 900)
    
 
 }
